@@ -73,8 +73,9 @@ img {
 }
 
 
-/* Solution < 419px */
-@media screen and (max-width: 419px){
+/* Solution < 768px */
+@media screen and (max-width: 768px){
+  
   /* RESET */
   *{
     margin: 0;
@@ -107,13 +108,18 @@ img {
   }
 
   img{
-    width: 150px;
+    width: 30%;
+    min-width: 150px;
     height: auto;
     padding-top: 30px;
     padding-bottom: 20px;
   }
 
   /* Lessons section */
+  #lezioni{
+    background-color: lightblue;
+  }
+
   #lezioni .row>.left,
   #lezioni .row>.right {
     width: 100%;
@@ -122,6 +128,10 @@ img {
   }
 
   /* Steps section */
+  #steps{
+    background-color: lightcoral;
+  }
+
   #steps .row>.left,
   #steps .row>.central,
   #steps .row>.right {
@@ -131,6 +141,10 @@ img {
   }
 
   /* Why section */
+  #why{
+    background-color: lightgoldenrodyellow;
+  }
+
   #why .row>.first,
   #why .row>.second,
   #why .row>.third {
@@ -146,75 +160,20 @@ img {
   }
 }
 
-
-/* Solution < 768px */
-@media screen and (max-width: 768px) {
-  /* RESET */
-  *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-
-  /* COMMON */
-  body{
-    font-size: 20px;
-  }
-
-  .container{
-    width: 100%;
-    padding: 20px;
-  }
-
-  h1{
-    font-size: 60px;
-  }
-
-  h3{
-    font-size: 40px;
-    padding-bottom: 20px;
-  }
-
-  .row{
-    width: 100%;
-    margin-top: 40px;
-  }
-
-  img{
-    width: 150px;
-    height: 150px;
-    padding-top: 30px;
-    padding-bottom: 20px;
-  }
+/* Solution < 419px */
+@media screen and (max-width: 419px) {
 
   /* Lessons section */
-  #lezioni .row>.left,
-  #lezioni .row>.right {
-    padding: 20px 0;
+  #lezioni{
+    background-color: lightgoldenrodyellow;
   }
 
   /* Steps section */
-  #steps .row>.left,
-  #steps .row>.central,
-  #steps .row>.right {
-    float: none;
-    width: 100%;
-    padding-bottom: 50px;
+  #steps{
+    background-color: lightblue;
   }
 
-  /* Why section */
-  #why .row>.first,
-  #why .row>.second,
-  #why .row>.third {
-    margin-top: 40px;
+  #why{
+    background-color: lightcoral;
   }
-
-  #why .row hr {
-    margin-top: 40px;
-  }
-
-  #why .row>.third{
-    margin-bottom: 40px;
-  }
-
 }
