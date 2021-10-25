@@ -73,8 +73,8 @@ img {
 }
 
 
-/* Solution < 420px */
-@media screen and (max-width: 420px){
+/* Solution < 419px */
+@media screen and (max-width: 419px){
   /* RESET */
   *{
     margin: 0;
