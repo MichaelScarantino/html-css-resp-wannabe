@@ -73,7 +73,7 @@ img {
 }
 
 
-/* Solution */
+/* Solution < 420px */
 @media screen and (max-width: 420px){
   /* RESET */
   *{
@@ -144,4 +144,77 @@ img {
   #why .row>.third{
     margin-bottom: 40px;
   }
+}
+
+
+/* Solution < 768px */
+@media screen and (max-width: 768px) {
+  /* RESET */
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  /* COMMON */
+  body{
+    font-size: 20px;
+  }
+
+  .container{
+    width: 100%;
+    padding: 20px;
+  }
+
+  h1{
+    font-size: 60px;
+  }
+
+  h3{
+    font-size: 40px;
+    padding-bottom: 20px;
+  }
+
+  .row{
+    width: 100%;
+    margin-top: 40px;
+  }
+
+  img{
+    width: 150px;
+    height: 150px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
+
+  /* Lessons section */
+  #lezioni .row>.left,
+  #lezioni .row>.right {
+    padding: 20px 0;
+  }
+
+  /* Steps section */
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+    float: none;
+    width: 100%;
+    padding-bottom: 50px;
+  }
+
+  /* Why section */
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third {
+    margin-top: 40px;
+  }
+
+  #why .row hr {
+    margin-top: 40px;
+  }
+
+  #why .row>.third{
+    margin-bottom: 40px;
+  }
+
 }
