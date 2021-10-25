@@ -75,7 +75,7 @@ img {
 
 /* Solution < 768px */
 @media screen and (max-width: 768px){
-  
+
   /* RESET */
   *{
     margin: 0;
@@ -173,6 +173,7 @@ img {
     background-color: lightblue;
   }
 
+  /* Why section */
   #why{
     background-color: lightcoral;
   }
